@@ -1,6 +1,4 @@
 # Data-Modeling
-
-![cf](http://i.imgur.com/7v5ASc8.png) Lab Submission Instructions
 ===========================================================================
 
 ## Project Name
