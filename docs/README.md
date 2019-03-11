@@ -3,13 +3,12 @@
 
 ## Project Name
 Lab-08-Data-Modeling
-https://travis-ci.com/Alwynblake/
+[![Build Status](https://travis-ci.com/Alwynblake/Data-Modeling.svg?branch=master)](https://travis-ci.com/Alwynblake/Data-Modeling)
 
 ### Author: Alistair Blake
 
 ### Links and Resources
 repo https://github.com/Alwynblake/Data-Modeling
-https://travis-ci.com/Alwynblake/
 back-end
 front-end https://Lab-08-datamodeling.herokuapp.com/
     
