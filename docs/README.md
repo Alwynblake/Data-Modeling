@@ -12,20 +12,6 @@ repo https://github.com/Alwynblake/Data-Modeling
 https://travis-ci.com/Alwynblake/
 back-end
 front-end https://Lab-08-datamodeling.herokuapp.com/
-
-  
-## Operation
-* In the folder for each class in the class repository, you will find a `lab` folder
-* The folder for each day in the repo contains:
-  * LAB.md - The instructions for the lab
-  * README.md - A template which you will fill out each day to submit your lab 
-  * `starter-code` folders - Contains any starter code for your lab
-* Create a new github repository for each lab
-* If there is a `starter-code` folder for the lab, **copy it's contents** *(not the folder itself)* into your new repository
-* Ensure that your repository/branch is connected to travis-ci.com
-* For deployable labs (servers)...
-* Ensure that your repository/branch is connected to a dyno at heroku.com
-* Create a new one for each day that contains a server deployment
     
 ## Assignment: Data-Modeling
 * The provided API server is setup to work, but the data models are missing
