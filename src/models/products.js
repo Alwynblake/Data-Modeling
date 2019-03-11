@@ -1,8 +1,9 @@
 'use strict';
 
+// const schema = require('./products.schema.js');
 
-
-const schema = require ('../models/products-schema.js');
+const schema = {
+};
 
 class Products {
 
@@ -10,21 +11,21 @@ class Products {
     this.database = [];
   }
 
-  get(_id) {
+  get(id) {
     let queryObject = id ? {id} : {};
     return schema.find(queryObject);
   }
-  
-  post(entry) {
+
+  post(record) {
     let newEntry = new schema(entry);
     return newEntry.save();
   }
 
-  put(_id, entry) {
+  put(id, record) {
     return schema.findByIdAndUpdate(id, entry, {new:true});
   }
 
-  delete(_id) {
+  delete(id) {
     return schema.findByIdAndDelete(id);
 
   }

@@ -1,6 +1,12 @@
 'use strict';
 
 const uuid = require('uuid/v4');
+
+const schema = {
+  id: {required:true},
+  name: {required: true},
+};
+
 class Categories {
 
   constructor() {
@@ -10,22 +16,22 @@ class Categories {
   get(_id) {
     let queryObject = _id ? {_id} : {}
   }
-  
+
   post(record) {
     entry.id = uuid();
-    let entry = this.sanitize(entry);
-    if ( record.id ) {this.database.push(entry); }
-    return Promise.resolve(entry);
+    let record = this.sanitize(entry);
+    if ( record.id ) {this.database.push(record); }
+    return Promise.resolve(record);
   }
 
-  put(_id, entry) {
-    let entry = this.sanitize(entry);
+  put(_id, record) {
+    let record = this.sanitize(entry);
     if ( record.id ) { this.database = this.database.map((item) => (item.id === id) ? record : item  ); }
     return Promise.resolve(record);
   }
 
   delete(_id) {
-    this.database = this.database.filter((entry) => entry.id !== id );
+    this.database = this.database.filter((record) => record.id !== id );
     return Promise.resolve();
   }
 
