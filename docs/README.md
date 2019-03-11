@@ -42,10 +42,6 @@ front-end https://Lab-08-datamodeling.herokuapp.com/
  * For APIs, your endpoints should all be testable remotely using httpie or postman
  * For Web Servers, your website must be reachable
  
-## Deployment - React Labs
- * Your app must be deployed at AWS Cloudfront
- * Use an automated deployment, connecting your repository to AWS through cloud formation
- 
 ## Testing
  * Write a complete set of tests for all data models, independent of the server
  * For testing the server and routes, use `supertest` to do end-to-end testing
