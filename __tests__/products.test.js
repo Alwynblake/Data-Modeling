@@ -1,5 +1,5 @@
 'use strict';
-
+const request = require('supertest');
 const Products = require('../models/products.js');
 
 const products = new Products();

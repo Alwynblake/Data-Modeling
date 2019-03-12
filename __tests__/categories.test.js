@@ -1,3 +1,4 @@
+const request = require('supertest');
 const Categories = require('../categories.js');
 const Categories = new Categories();
 
